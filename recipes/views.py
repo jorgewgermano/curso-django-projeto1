@@ -12,15 +12,3 @@ def home(request):
 
         'name': 'jorge'
     }) 
-
-
-
-def contato(request):
-    return HttpResponse('contato') 
-
-
-
-def sobre(request):
-    return HttpResponse('sobre') 
-
-    
